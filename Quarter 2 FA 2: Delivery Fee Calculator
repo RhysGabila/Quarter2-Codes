@@ -1,0 +1,5 @@
+d = float(input("Enter the distance in kilometers: "))
+rate = float(input("Enter the rate per kilometer in pesos: "))
+p = d * rate
+
+print("The total cost of the delivery fee is:", "₱", p)
